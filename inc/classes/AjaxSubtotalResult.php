@@ -40,7 +40,6 @@ class AjaxSubtotalResult extends Timber {
   }
 
   public function add_to_context($context) {
-    $context['AJAX_SUBTOTAL_RESULT_URL'] = MINICART_POPUP_URL;
     return $context;    
   }
 
