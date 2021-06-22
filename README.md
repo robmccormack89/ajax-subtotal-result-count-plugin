@@ -1,3 +1,3 @@
-# Minicart & popup modal for Woocommerce
+# Ajax Subtotal & Result Count
 
-A custom popup product search. Toggle it with #ModalNavbarSearch
+Custom result count & subtotal amount for header. Works with ajax. Add via the shortcode: [rmcc_header_result_subtotal]
