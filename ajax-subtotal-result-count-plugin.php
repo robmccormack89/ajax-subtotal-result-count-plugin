@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Ajax Subtotal & Result Count
+Plugin Name: Ajax Subtotal & Result Count for Woocommerce by RMcC
 Plugin URI: #
 Description: Custom result count & subtotal amount for header. Works with ajax. Add via the shortcode: [rmcc_header_result_subtotal]
 Version: 1.0.0
