@@ -20,11 +20,11 @@ defined('ABSPATH') || exit;
 if (!defined('AJAX_SUBTOTAL_RESULT_PATH')) define('AJAX_SUBTOTAL_RESULT_PATH', plugin_dir_path( __FILE__ ));
 if (!defined('AJAX_SUBTOTAL_RESULT_URL')) define('AJAX_SUBTOTAL_RESULT_URL', plugin_dir_url( __FILE__ ));
 
-// require action functions 
-require_once('inc/functions.php');
-
 // require the composer autoloader
 if (file_exists($composer_autoload = __DIR__.'/vendor/autoload.php')) require_once $composer_autoload;
 
 // then require the main plugin class. this class extends Timber/Timber which is required via composer
 new Rmcc\AjaxSubtotalResult;
+
+// require action functions 
+require_once('inc/functions.php');
