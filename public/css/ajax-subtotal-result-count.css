@@ -1,8 +1,8 @@
 /* header cart icon */
 .header-cart-count {
-  position: absolute;
-  left: -20px;
-  top: 0;
+  position: relative;
+  left: 0px;
+  top: -10px;
   display: inline-block;
   width: 15px;
   line-height: 15px;

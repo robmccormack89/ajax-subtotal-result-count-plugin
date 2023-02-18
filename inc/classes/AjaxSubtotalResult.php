@@ -5,10 +5,8 @@ class AjaxSubtotalResult {
 
   public function __construct() {
     add_action('wp_enqueue_scripts', array($this, 'plugin_enqueue_assets'));
-    
     add_filter('woocommerce_add_to_cart_fragments', array($this, 'header_cart_count_fragments'), 10, 1);
-    
-    add_shortcode('rmcc_header_result_subtotal', 'cart_result_subtotal'); // see inc/functions.php
+    add_shortcode('ajax_cart_result_subtotal', 'ajax_cart_result_subtotal');
   }
   
   public function header_cart_count_fragments($fragments) {
